@@ -1,0 +1,5 @@
+#define REDIS_GIT_SHA1 "9d0158bf"
+#define REDIS_GIT_DIRTY "0"
+#define REDIS_BUILD_ID "host216.pa.igp.shibaura-it.ac.jp-1704272794"
+#include "version.h"
+#define REDIS_BUILD_ID_RAW REDIS_VERSION REDIS_BUILD_ID REDIS_GIT_DIRTY REDIS_GIT_SHA1
